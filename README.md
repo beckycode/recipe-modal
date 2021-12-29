@@ -1,7 +1,7 @@
 # Recipe List with Modal
 
 - Rebeca Gonzalez
-- 12/31/2021 Tuesday
+- 12/28/2021 Tuesday
 - 6 hours
 
 ## Instructions
