@@ -13,8 +13,8 @@ export const RecipeItem = ({ recipe }) => {
     } else {
       imageRef.current.src = images.front;
     }
+    // eslint-disable-next-line
   }, [hover]);
-  // eslint-disable-line
 
   const openModal = () => {
     setModalOpen(true);
