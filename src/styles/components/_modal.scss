@@ -10,7 +10,6 @@
   transition: all 0.3s linear;
   visibility: hidden;
   z-index: -1;
-  // overflow-y: hidden;
 
   &--show {
     visibility: visible;
@@ -24,7 +23,6 @@
     height: 70vh;
     border-radius: 2rem;
     padding: 3rem 5rem;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -34,12 +32,12 @@
 
   &__title {
     display: flex;
+    justify-content: center;
     align-self: center;
     font-family: $font-title;
     font-weight: $font-title-regular;
     font-size: $font-title-size;
-    text-align: center;
-    margin-top: 5rem;
+    margin: 1rem auto;
   }
 
   &__section {
