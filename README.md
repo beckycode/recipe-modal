@@ -10,11 +10,11 @@
 
 ## Learning
 
-- How to deal with modals
+- How to deal with scrollbars inside modals
 
 ## Difficulties
 
-- Dealing with modals in css, especially if your modal has a scroll inside. This took me time to understand
+- Dealing with scrollbars on modals in css. This took me time to understand what was the issue on my container. It did not show the title but at the end it solved taking a break and debugging again :P. The main problem was my main container was grid and the second one was flexbox, it gave me problems to show the initial content.
 
 ## Getting Started with Create React App
 
