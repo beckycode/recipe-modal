@@ -7,9 +7,13 @@ export const Modal = () => {
 
   return (
     <div className={`modal ${modalOpen ? "modal--show" : ""}`}>
-      <a className="link-close" onClick={() => setModalOpen(false)}>
+      <button
+        type="button"
+        className="link-close"
+        onClick={() => setModalOpen(false)}
+      >
         X
-      </a>
+      </button>
       <div className="modal__content">
         <h2 className="modal__title">{name}</h2>
         <div className="modal__section">
