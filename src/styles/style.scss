@@ -1,0 +1,52 @@
+@import "./base/settings";
+@import "./base/mixins";
+@import "./components/header";
+@import "./components/recipe-list";
+@import "./components/recipe-item";
+@import "./components/modal";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: $scroll-color;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: darken($scroll-color, 20%);
+}
+
+body {
+  @include background-image("desktop");
+  color: $primary-color;
+  font-family: $font-text;
+  font-size: $font-text-size;
+  padding: 5rem 4rem;
+}
+
+main {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.img {
+  width: 20rem;
+}
+
+@import "./media/tablet";
+@import "./media/mobile";

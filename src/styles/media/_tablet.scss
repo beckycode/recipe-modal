@@ -1,0 +1,52 @@
+@media (max-width: 1365px) {
+  body {
+    @include background-image("tablet");
+  }
+
+  .img {
+    width: 17rem;
+  }
+
+  .header {
+    &__content {
+      margin: 3rem 2rem;
+    }
+
+    &__text {
+      width: 90%;
+      margin: 3rem auto;
+    }
+  }
+
+  // Recipe items
+  .grid {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  //Modal
+  //close modal
+  .link-close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    font-size: 3rem;
+  }
+
+  .modal {
+    &__content {
+      background-color: $modal-background;
+      width: 80vw;
+      height: 70vh;
+      padding: 2rem 2rem;
+    }
+
+    &__list {
+      &--columns li {
+        grid-template-columns: 1fr 8fr;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

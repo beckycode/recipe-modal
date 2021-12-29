@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 5rem;
+  }
+
+  &__title {
+    font-family: $font-title;
+    font-size: $font-title-size;
+    font-weight: $font-title-regular;
+  }
+
+  &__text {
+    width: 50%;
+    margin: 5rem auto;
+    font-weight: $font-text-regular;
+    text-align: center;
+  }
+}

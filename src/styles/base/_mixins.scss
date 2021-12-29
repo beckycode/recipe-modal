@@ -1,0 +1,3 @@
+@mixin background-image($type) {
+  background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_#{$type}.png");
+}

@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+  body {
+    @include background-image("mobile");
+  }
+
+  .img {
+    width: 15rem;
+  }
+
+  .header {
+    &__content {
+      margin: 3rem 1.5rem;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__text {
+      width: 100%;
+    }
+  }
+
+  .grid {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  //Modal
+  //close modal
+  .link-close {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 3rem;
+  }
+
+  .modal {
+    &__content {
+      background-color: $modal-background;
+      width: 90vw;
+      height: 80vh;
+      padding: 2rem 2rem;
+    }
+
+    &__list {
+      &--columns li {
+        grid-template-columns: 1fr 4fr;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
