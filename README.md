@@ -8,6 +8,11 @@
 
 - This is the [link](https://relaxed-tereshkova-898e2e.netlify.app/) to see it working with netlify
 
+## Technologies
+
+- React
+- Sass
+
 ## Learning
 
 - How to deal with scrollbars inside modals
