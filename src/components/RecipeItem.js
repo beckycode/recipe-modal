@@ -14,6 +14,7 @@ export const RecipeItem = ({ recipe }) => {
       imageRef.current.src = images.front;
     }
   }, [hover]);
+  // eslint-disable-line
 
   const openModal = () => {
     setModalOpen(true);
